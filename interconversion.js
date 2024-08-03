@@ -37,7 +37,7 @@ document.getElementById('conversionForm').addEventListener('submit', function(ev
 });
 
 // Ched形式への変換処理
-function convertTommw(content) {
+function convertToMMW(content) {
     const lines = content.split('\n');
     for (let i = 0; i < lines.length; i++) {
         if (lines[i].includes('"type": "attach",')) {
